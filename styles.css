@@ -1,8 +1,16 @@
-.title{
+.flex_container{
+    display: flex;
+}
+#big_title{
     text-align: center;
     font-size:100px;
+    font-family: cursive;
+}
+.title{
+    text-align: center;
 }
 #justin_photo{
+    margin-top: 0%;
     width: 500px;
     border-radius: 240px;
     display: block;
@@ -12,4 +20,22 @@
 }
 .button{
     width: 25px;
+}
+
+.hpbutton{
+    text-align: center;
+
+}
+#artwork{
+    width: 600px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right{
+    width: 500px;
+    float: right;
+    padding: 0 0 20px 20px;
 }
