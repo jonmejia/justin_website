@@ -1,5 +1,6 @@
-h1{
+.title{
     text-align: center;
+    font-size:100px;
 }
 #justin_photo{
     width: 500px;
