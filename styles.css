@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+#justin_photo{
+    width: 500px;
+    border-radius: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.button{
+    width: 25px;
+}
