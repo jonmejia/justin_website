@@ -1,3 +1,7 @@
+.homepage{
+    background-size: cover;
+    background-image: url(photos/washington_square.jpeg);
+}
 .flex_container{
     display: flex;
 }
@@ -10,9 +14,8 @@
     text-align: center;
 }
 #justin_photo{
-    margin-top: 0%;
     width: 500px;
-    border-radius: 240px;
+    border-radius: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,10 +24,20 @@
 .button{
     width: 25px;
 }
+.image_button{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 .hpbutton{
-    text-align: center;
+    display: block;
+    position: relative; top: -350px; right: -100px;
 
+}
+.hpbutton2{
+    display: block;
+    position: relative; top: -520px; right: -1100px;
 }
 #artwork{
     width: 600px;
@@ -39,3 +52,4 @@
     float: right;
     padding: 0 0 20px 20px;
 }
+
