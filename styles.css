@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
 .homepage{
     background-size: cover;
     background-image: url(photos/washington_square.jpeg);
