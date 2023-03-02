@@ -2,24 +2,20 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
+    background-color: #BFACE2;
 }
-.bio{
-    background-image: url(photos/kids.jpeg);
+.hp_flex_container{
+    display: flex;
+}
+.hp_flex_container div{
+    flex: 1;
 }
 #bio_p{
     background-color: rgba(255, 255, 255, 0.6);
-    border: 2px solid black;
     border-radius: 0%;
     font-weight: 400;
 }
-.homepage{
-    background-size: cover;
-    background-image: url(photos/washington_square.jpeg);
 
-}
-.flex_container{
-    display: flex;
-}
 #big_title{
     text-align: center;
     font-size:100px;
@@ -30,31 +26,16 @@ body{
     text-align: center;
 }
 #justin_photo{
-    width: 500px;
-    border-radius: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    width: 100%;
+    border-radius: 50%;
 }
 .button{
     width: 25px;
 }
 .image_button{
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    width: 43%;
 }
 
-.hpbutton{
-    display: block;
-    position: relative; top: -350px; right: -100px;
-
-}
-.hpbutton2{
-    display: block;
-    position: relative; top: -520px; right: -1100px;
-}
 #artwork{
     width: 600px;
     height: 800px;
