@@ -3,9 +3,19 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.bio{
+    background-image: url(photos/kids.jpeg);
+}
+#bio_p{
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid black;
+    border-radius: 0%;
+    font-weight: 400;
+}
 .homepage{
     background-size: cover;
     background-image: url(photos/washington_square.jpeg);
+
 }
 .flex_container{
     display: flex;
@@ -14,6 +24,7 @@ body{
     text-align: center;
     font-size:100px;
     font-family: cursive;
+    color: white;
 }
 .title{
     text-align: center;
