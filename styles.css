@@ -4,16 +4,33 @@ body{
     height: 100vh;
     background-color: #BFACE2;
 }
+p{
+    text-align: center;
+    font-size: large
+}
 .hp_flex_container{
     display: flex;
 }
 .hp_flex_container div{
     flex: 1;
 }
+.am_flex_container{
+    display: flex;
+}
+.am_flex_container div{
+    flex: 1;
+}
+.buttons_flex_container{
+    display: flex;
+}
+.am_flex_container a{
+    flex: 1;
+}
 #bio_p{
+    text-align: left;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 0%;
     font-weight: 400;
+    font-size: medium;
 }
 
 #big_title{
@@ -37,16 +54,13 @@ body{
 }
 
 #artwork{
-    width: 600px;
-    height: 800px;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.right{
-    width: 500px;
-    float: right;
-    padding: 0 0 20px 20px;
+#kids{
+    width: 50%;
 }
 
