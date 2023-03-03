@@ -1,1 +1,38 @@
+body{
+    text-align: center;
+    margin-top: 3%;
+    background-color: #F5E8C7;
+    color:#F9F5E7 ;
+}
+#hp_title{
+    font-size: 7rem;
+    color: #AC7088;
+    font-family: 'Lobster', cursive;
 
+}
+#hp_photo{
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+#hp_email{
+    width: 12rem;
+    position: absolute;
+    top: 65%;
+    right: 20%;
+}
+#hp_ig{
+    width: 12rem;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+}
+.ig{
+    width: 2rem;
+}
+.envelope{
+    width: 2rem;
+}
+.button{
+    display: block;
+}
